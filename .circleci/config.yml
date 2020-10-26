@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run: 
           name: Build
-          command: echo "build"
+          command: npm install
       - run:
           name: Run Unit Tests
           command: echo "unit tests"
